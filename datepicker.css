@@ -1,0 +1,47 @@
+body {
+	background-color: #2196f3;
+}
+#container{
+	min-height: 800px;
+	padding-top: 100px;
+}
+#datepicker{
+	width: 200px;
+	margin:auto;
+	border-radius: 5px;
+	display: block;
+}
+#dtp-content {
+	margin: auto;
+	width: 180px;
+	height: 180px;
+	background: white;
+	display: none;
+	align-content: center;
+	border-radius: 5px;
+	box-shadow: 0 0 15px red;
+}
+#weekdays{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 1px;
+}
+.monthDaysEmpty{
+	text-align: center;
+	cursor: pointer;
+}
+#today{
+	background-color:yellow;
+}
+.monthDays{
+	text-align: center;
+	cursor: pointer;
+	background-color:#D0D0D0;
+}
+
+#tableHead{
+	background-color: #E9E9E9;
+}
+.nextPrev{
+	cursor: pointer;
+}
